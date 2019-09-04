@@ -6,4 +6,3 @@
     c) sqrt(2 * power(x, 2) + x * y)
 
     d) a cos(2 * x) - sin(y)
-
