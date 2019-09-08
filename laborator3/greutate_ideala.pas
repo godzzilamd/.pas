@@ -14,11 +14,11 @@ write('Virsta: '); readln(virsta);
 write('Sex: '); readln(sex);
 
 write('Greutatea ideala pentru aceasta persoana este: ');
-if (sex = 'm')
-    then
-        writeln(50 + 0.75*(inaltimea - 150) + (virsta - 20/4):2:2)
-    else 
-        writeln((50 + 0.75*(inaltimea - 150) + (virsta - 20/4))-10:2:2);
+case (sex) of
+    'm': writeln(50 + 0.75*(inaltimea - 150) + (virsta - 20/4):2:2);
+else
+    writeln((50 + 0.75*(inaltimea - 150) + (virsta - 20/4))-10:2:2);
+end;
 
 writeln;
 writeln('Tastati orice pentru a iesi');
