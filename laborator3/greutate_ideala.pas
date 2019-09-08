@@ -20,7 +20,6 @@ if (sex = 'm')
     else 
         writeln((50 + 0.75*(inaltimea - 150) + (virsta - 20/4))-10:2:2);
 
-
 writeln;
 writeln('Tastati orice pentru a iesi');
 readkey;
