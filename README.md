@@ -1,2 +1,2 @@
-# .pas
+# pas
 For UST
