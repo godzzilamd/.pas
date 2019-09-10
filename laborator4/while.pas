@@ -5,11 +5,10 @@ var x: single = -3;
 
 Begin
 ClrScr;
-while (x <= 3) do
-begin
+repeat 
     write(x * x:1:1, '   ');
     x := x + 0.5;
-end;
+until x = 3;
 
 writeln;
 writeln('Tastati orice pentru a iesi');
