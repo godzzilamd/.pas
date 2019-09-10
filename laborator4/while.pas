@@ -7,7 +7,7 @@ Begin
 ClrScr;
 
 repeat 
-    write(x * x:1:1, '   ');
+    write(x * x:1:1, '  ');
     x := x + 0.5;
 until x = 3;
 
