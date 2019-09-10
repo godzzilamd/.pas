@@ -1,7 +1,7 @@
 Program P4;
 Uses Crt;
 
-var x: single= -3;
+var x: single = -3;
 
 Begin
 ClrScr;
