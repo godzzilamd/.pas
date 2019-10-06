@@ -1,8 +1,10 @@
 Program P1;
+Uses Crt;
 
 var n:byte;
 
 begin
+ClrScr;
 // pentru ca instructiunile repetitive inca nu a fost invata
 write('n = '); readln(n);
 writeln('1 x ', n,' = ', 1 * n);
