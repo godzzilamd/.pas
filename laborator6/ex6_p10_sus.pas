@@ -13,6 +13,7 @@ writeln('Valorile cercurilor: ');
 for i := 1 to n do
     read(a[i]);
 
+writeln;
 //backtracking fara functii si filtrare
 for i := 1 to n do
 begin
