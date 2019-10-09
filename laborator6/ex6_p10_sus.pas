@@ -2,7 +2,6 @@ Program P1;
 Uses Crt;
 
 var x,n,i,j,k:byte;
-    Permutari : byte = 1;
     a : array [0 .. 100] of byte;
 
 begin
@@ -13,10 +12,6 @@ write('x = '); readln(x);
 writeln('Valorile cercurilor: ');
 for i := 1 to n do
     read(a[i]);
-
-//calcularea permutarilor
-for i := 1 to n do
-    Permutari := Permutari * i;
 
 //backtracking fara functii si filtrare
 for i := 1 to n do
