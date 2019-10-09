@@ -14,7 +14,7 @@ for i := 1 to n do
     read(a[i]);
 
 writeln;
-//backtracking fara functii si filtrare
+//backtracking fara functii recursive si filtrare
 for i := 1 to n do
 begin
     for j := 1 to n do
