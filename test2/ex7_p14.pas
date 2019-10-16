@@ -19,6 +19,7 @@ begin
     for j := 1 to m do
     s := s + a[j][i];
     writeln('Suma pe ', i, ' rind este : ', s);
+    s := 0;
 end;
 
 readkey;
