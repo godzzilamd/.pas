@@ -77,7 +77,7 @@ End;
 procedure writeNewTop();
 var i : byte;
 begin
-    assign(f, 'MelodyOutput.txt');
+    assign(f, 'melodyOutput.txt');
     rewrite(f);
     writeln('Noul top este');
     writeln;
