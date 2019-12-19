@@ -2,9 +2,11 @@ Program P1;
 Uses Crt;
 
 type 
-    custom_byte_type = array [0 .. 255] of byte;
-    custom_array = array [1 .. 10] of custom_byte_type;
+    // custom_byte_type = array [0 .. 255] of byte;
+    // custom_array = array [1 .. 10] of custom_byte_type;
 
+    mainSet = set of byte;
+    custom_array = array [1 .. 10] of mainSet;
 var 
     main_array:custom_array;
     n,i,j,x,z:byte;

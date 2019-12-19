@@ -1,26 +1,26 @@
 Program P1;
 Uses Crt;
 
-var i: integer = 0;
-  a, b, c: string;
-  F: TextFile;
+type
+    mainSet = set of byte;
+var 
+    i,j:byte;
+    a : array [1 .. 10] of mainSet;
 
 begin
 ClrScr;
 
-  Assign(F, 'myfile.txt');
-  Reset(F);
-//   while not eof(F) do
-//   begin
-    Read(F, a);
-    while a[i] <> ',' do
-    begin
-        b[i] := a[i];
-        inc(i);
-    end;
-    Write(a, '\', b);
-//   end;
-  Close(F);
-  // Do actions...
+a[1] := [1, 2, 3];
+a[2] := [1, 2, 3];
+a[3] := [1, 2, 4];
 
+for i := 1 to 3-1 do
+  for j := i to 3-1 do
+    if  (a[i] <> a[j + 1]) then
+      begin
+        writeln('Multimile sunt disjuncte');
+        exit;
+      end;
+writeln('Multimile nu sunt disjuncte');
+readkey;
 end.
